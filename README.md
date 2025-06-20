@@ -4,6 +4,10 @@
 
 A comprehensive Model Context Protocol (MCP) server that combines the power of [ugrep](https://github.com/Genivia/ugrep) and [ast-grep](https://github.com/ast-grep/ast-grep) philosophies to deliver intelligent search and replace capabilities for modern development workflows.
 
+<a href="https://glama.ai/mcp/servers/@mixelpixx/CodeSeeker-MCP">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@mixelpixx/CodeSeeker-MCP/badge" alt="CodeSeeker-MCP MCP server" />
+</a>
+
 ## 🚀 Features
 
 CodeSeeker provides AI assistants with complete search AND replace capabilities:
