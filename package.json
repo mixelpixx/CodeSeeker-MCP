@@ -1,0 +1,54 @@
+{
+  "name": "codeseeker-mcp",
+  "version": "0.1.0",
+  "description": "CodeSeeker - Advanced code search and transformation for AI assistants. Powered by ugrep with intelligent replace capabilities.",
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "codeseeker-mcp": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:unix": "tsc && chmod +x build/index.js",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "prepare": "npm run build",
+    "test": "node test.js",
+    "test:basic": "node build/index.js --help",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "codeseeker",
+    "code-search",
+    "search-replace",
+    "ugrep",
+    "grep",
+    "search",
+    "regex",
+    "fuzzy-search",
+    "boolean-search",
+    "archive-search",
+    "code-refactor",
+    "ai-tools",
+    "ast-grep"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
